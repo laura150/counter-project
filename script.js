@@ -1,11 +1,11 @@
 let count = 0
+//I AM GONNA USE TWO WAYS TO SOLVE THIS PROJECT. FIRST I WILL CODE EACH BUTTON INDIVIDUALLY AS SEEN BELOW
 
 /*const value = document.querySelector('#value')
 const minus = document.querySelector('.decrease')
 const add = document.querySelector('.increase')
 const reset = document.querySelector('.reset')
 
-//This is how to code the buttons individually.
 
 minus.addEventListener('click' , (e) => {
   count--;
@@ -31,8 +31,8 @@ reset.addEventListener('click' , (e) => {
   }
 })*/
 
-//If you wanna save yourself the stress of coding each button individually,you can grab all the buttons, loop through them using
-//The forEach method and add an eventListener to each.
+//SECONDLY, TO SAVE TIME AND STRESS, I CAN INSTEAD GRAB ALL THE BUTTONS AND LOOP THROUGH EACH OF THEM USING THE forEach() METHOD
+//AND THEN ADD AN EVENTLISTENER TO EACH
 
 
 const value = document.querySelector('#value')
