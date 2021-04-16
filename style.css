@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: rgb(211, 82, 104);
+}
+.heading {
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  letter-spacing: 0.2em;
+}
+.container {
+  width: 400px;
+  margin: 10em auto;
+}
+.same-style {
+  text-align: center;
+  font-size: 3em;
+  padding-top: 0.5em;
+}
+.counter {
+  color: rgb(211, 82, 104);
+}
+.zero {
+  font-weight: bolder;
+  padding-bottom: 0.5em;
+}
+.buttons-container {
+  text-align: center;
+}
+.btn {
+  padding: 0.5em 2em;
+  border-radius: 10%;
+  cursor: pointer;
+  border: 1px solid rgb(211, 82, 104);
+  outline: none;
+  margin-right: 2em;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: rgb(211, 82, 104);
+  color: white;
+}
